@@ -2,7 +2,43 @@
   --primary-color: rebeccapurple;
 }
 
+html,
+body {
+  height: 100vh;
+}
+
 body {
   background-color: var(--primary-color);
   color: white;
+  margin: 0;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  height: 100%;
+}
+
+.page-header {
+  height: 100px;
+  background-color: rgb(101, 225, 130);
+}
+
+.content-wrapper {
+  background-color: rgb(114, 114, 210);
+  flex-grow: 1;
+}
+
+.content-container {
+  background-color: rgb(255, 214, 101);
+  height: 100%;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.page-footer {
+  height: 100px;
+  background-color: hotpink;
 }
