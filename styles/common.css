@@ -1,0 +1,8 @@
+:root {
+  --primary-color: rebeccapurple;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: white;
+}
